@@ -58,7 +58,7 @@ app.post("/upload", upload.single("image"), async (req, res) => {
 
 app.post("/api/login", (req, res) => {
   const { email, password } = req.body;
-  if (email === "aajad@gmail.com" && password === "aajad") {
+  if (email === "bhagawati@gmail.com" && password === "bhagawati") {
     res.status(200).json({ message: "Login successful" });
   } else {
     res.status(401).json({ error: "Invalid email or password" });
